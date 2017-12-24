@@ -1,0 +1,87 @@
+body {
+    font-family: Courier;
+    background-color:white;
+  }
+  
+.bar { fill: tomato; }
+.finished { fill: rgba(3,205,3,0.8); }
+  
+  div#container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 900px;
+    padding: 5px;
+    margin: 0px;
+  }
+
+  div#controls {
+    font-family: Courier;
+    color: black;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 600px;
+    font-size: 0.8em;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+p {
+  margin: 0px;
+}
+
+  button {
+    height: 24px;
+    font-size: 0.8em;
+    width: auto;
+    font-family: Courier New, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    outline: none;
+  }
+  
+.text{
+  size: 1em;
+  color: black;
+}
+
+.exiting {
+  color: #CCC;
+}
+
+  h1 { 
+    font-size: 1.6em; 
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: 100;
+    color: black;
+    padding: 0px;
+  }
+  
+  div.sortBox {
+    color: black;
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+  }
+
+  div.graphBox {
+    flex: 0 1 auto;
+    width: 400px;
+    padding: 8px;
+    margin: 5px auto;
+  }
+
+  span.graphCaption {
+    float:left;
+    font-family: Helvetica;
+  }
+  
+  svg {
+    position: relative;
+    flex: 0 1 auto;
+    padding: 5px;
+  }
